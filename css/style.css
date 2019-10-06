@@ -15,9 +15,9 @@ body {
 /* Search Element */
 .search-container {
     display: flex;
-    width: 75vw;
-    height: auto;
-    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
     bottom: 50%;
     transform: translateY(-50%);
     left: 50%;
