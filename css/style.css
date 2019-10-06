@@ -8,6 +8,8 @@ body {
     font-size: 16px;
     color: #DFDFDF;
     text-align: center;
+    padding: 0;
+    margin: 0;
 }
 
 /* Search Element */
@@ -71,7 +73,7 @@ body {
 }
 
 .navbar a:hover, .dropdown:hover .dropbutton {
-    background-color: #f45905;
+    border-top: 4px solid #2a1a5e;
 }
 .dropdown-content {
     display: none;
@@ -94,17 +96,17 @@ body {
     text-align: left;
 }
 .dropdown-content a:hover {
-    background-color: #fb9224;
+    border-top: 4px solid #2a1a5e;
 }
 .dropdown:hover .dropdown-content {
     display: block;
 }
 
 #header-img {
-    display: inline-block;
     height: 70px;
     width: auto;
     border-radius: 10px;
-    margin: 0;
-    padding: 0;
+    margin-top: -5px;
+    margin-bottom: -5px;
+    float: right;
 }
