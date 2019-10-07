@@ -11,12 +11,21 @@ body {
     padding: 0;
     margin: 0;
 }
+@media only screen and (max-width: 800px) {
+    body {
+        font-size: 12px;
+        color: black;
+        background-color: #fb9224;
+        text-align: center;
+        font-family: 'Ubuntu', sans-serif;
+    }
+}
 
 /* Search Element */
 .search-container {
     display: flex;
     width: 100vw;
-    height: 100vh;
+    height: 80vh;
     position: relative;
     bottom: 50%;
     transform: translateY(-50%);
@@ -28,13 +37,13 @@ body {
     align-content: center;
 }
 .title {
-    font-size: 1.5em;
+    font-size: 1.8em;
     display: block;
 }
 .searchbox {
     display: block;
-    width: 40vw;
-    height: 40px;
+    width: 50vw;
+    height: 45px;
     border-radius: 20px;
     outline: none;
     text-align: center;
@@ -44,9 +53,13 @@ body {
 
 /* Navbar */
 .navbar {
-    overflow: hidden;
+    position: fixed;
+    width: 100vw;
     background-color: #fb9224;
     font-family: inherit;
+    padding: 0;
+    margin: 0;
+    z-index: 10;
 }
 .navbar a {
     float: left;
@@ -110,3 +123,124 @@ body {
     margin-bottom: -5px;
     float: right;
 }
+#Music {
+    display: block;
+    height: 50vh;
+    width: 100vw;
+    text-align: left;
+    overflow: hidden;
+}
+#Maps {
+    display: block;
+    height: 50vh;
+    width: 100vw;
+    text-align: left;
+    overflow: hidden;
+}
+#Crayons {
+    display: block;
+    height: 50vh;
+    width: 100vw;
+    text-align: left;
+    overflow: hidden;
+
+}
+#Tube {
+    display: block;
+    height: 50vh;
+    width: 100vw;
+    text-align: left;
+    overflow: hidden;
+
+}
+#News, #About {
+    display: block;
+    height: 50vh;
+    width: 100vw;
+    text-align: left;
+    overflow: hidden;
+
+}
+.product-titles{
+    font-size: 2.5em;
+}
+.product-text {
+    font-size: 1.5em;
+    font-weight: 300
+}
+
+
+form {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50vw;
+    height: auto;
+    flex-flow: column nowrap;
+    background-color: #f45905;
+    opacity: 0.9;
+    border-radius: 10px;
+    margin: 20px 10px;
+}
+.rows {
+    display: block;
+    height: 50px;
+    width: 100%;
+    padding: 14px 10px;
+}
+
+.labels {
+    float: left;
+    width: 50%;
+    text-align: right;
+    vertical-align: middle;
+    height: auto;
+    padding-right: 15px;
+    font-size: 1.3em;
+    font-weight: 400;
+}
+.right-input {
+    float: right;
+    position: relative;
+    width: 50%;
+    height: auto
+}
+.input-field{
+    float: left;
+    width: 250px;
+    height: 30px;
+    background: transparent;
+    border: none;
+    border-bottom: 3px solid darkgray;
+    font-size: 1.3em;
+    color: white;
+}
+#submit {
+    display: block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    height: 40px;
+    font-size: 1.3em;
+    font-weight: 300;
+    font-family: inherit;
+}
+
+main {
+    padding: 0px 20px;
+}
+footer {
+    font-size: 1em;
+    text-align: center;
+    color: white;
+    font-family: inherit;
+    font-weight: 300;
+    line-height: 1;
+    margin-bottom: auto;
+}
+
